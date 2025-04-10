@@ -3,7 +3,7 @@ function getStringLengths(strings) {
   return strings.map(str => str.length);
 }
 
-// Example usage:
+// E.g
 const stringArray = ["lwam", "danait", "jerry"];
 const lengths = getStringLengths(stringArray);
 console.log({lengths}); 
